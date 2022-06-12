@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Seeker_Folder</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>search.ico</ApplicationIcon>
+    <Company>Phantom Solutions</Company>
+    <Description>Copiar sistema de carpetas,  omitiendo los ficheros.</Description>
+    <Copyright>2022</Copyright>
+    <PackageProjectUrl>https://t.me/PhantomSolutions</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="search.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Ookii.Dialogs.Wpf">
+      <HintPath>..\ScrapyCatalog\ScrapyCatalog\Ookii.Dialogs.Wpf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
